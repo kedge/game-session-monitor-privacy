@@ -6,7 +6,7 @@ This policy covers Game Session Monitor, published by Kedge, package `com.kedge.
 
 ## Records and permissions
 
-The app keeps your selected games, settings, local trial state, and play session records on your Android device. Session records may contain elapsed time, battery level and temperature, available memory, display refresh rate, connection type, and probe results. Usage access is used during a recording or while the optional, visibly notified automatic HUD mode is enabled to recognize when a selected game enters or leaves the foreground. Foreground detection is processed on the device. The app can show an overlay, send session alerts, and apply optional display, audio or Do Not Disturb settings after you choose the relevant features and grants.
+The app keeps your selected games, settings, local trial state, and play session records on your Android device. Session records may contain elapsed time, battery level, battery temperature, charging state, available memory, display refresh rate, connection type and changes, Wi-Fi signal strength and frequency, device-wide receive rate, probe results, and any notes you enter. Usage access is used during a recording or while the optional, visibly notified automatic HUD mode is enabled to recognize when a selected game enters or leaves the foreground. Foreground detection is processed on the device. The app can show an overlay, send session alerts, and apply optional display, audio or Do Not Disturb settings after you choose the relevant features and grants.
 
 The app does not require an account with Kedge. Kedge does not receive gameplay records or run a purchase verification server. Game Session Monitor has no advertising or in-app analytics SDK.
 
@@ -18,7 +18,7 @@ Google Play manages purchase and restoration. Google processes payment and accou
 
 ## Retention and controls
 
-Raw session samples are kept for up to 30 days and session summaries for up to 180 days, subject to local capacity limits. Use History or Settings to delete session history. Android permissions can be revoked at any time in system settings. The app excludes its local records from automatic cloud backup. You can explicitly export or import a file through the Android file picker. The destination you choose is governed by that provider's own policies.
+Raw session samples are kept for up to 30 days and session summaries for up to 180 days, subject to local capacity limits. Use History or Settings to delete session history. Android permissions can be revoked at any time in system settings. The app excludes its local records from automatic cloud backup. You can save reports as CSV or PNG files and export or import a backup through the Android file picker. Reports can also be shared through an app you select. The destination you choose is governed by that provider's own policies.
 
 ## Contact
 
